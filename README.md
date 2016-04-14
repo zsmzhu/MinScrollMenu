@@ -23,7 +23,7 @@ pod ‘MinScrollMenu’
 	- (MinScrollMenuItem *)scrollMenu:(MinScrollMenu*)menu itemAtIndex:(NSInteger)index;
 ```
 2. Xib or storyboard create MinScrollMenuItem is not supported
-3. If the menu size is not correct. Add this to your code:
+3. If the menu content size is not correct. Add this to your code:
 
 	`self.automaticallyAdjustsScrollViewInsets = NO;`
 
