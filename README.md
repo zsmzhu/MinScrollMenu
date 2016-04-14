@@ -10,6 +10,7 @@ pod ‘MinScrollMenu’
 2. drag the IBOutlet of MinScrollMenu to you controller.
 3. set the delegate property to the controller,
 	like this: `_menu.delegate = self;`
+
 ### Manual setup
 	_menu = [[MinScrollMenu alloc] initWithFrame:CGRectMake(0, 0, 320, 100)];
 	_menu.delegate = self;
@@ -23,4 +24,4 @@ pod ‘MinScrollMenu’
 3. If the menu size is not correct. Add this to your code
 		self.automaticallyAdjustsScrollViewInsets = NO;
 
-#### Here you go
+### Here you go
