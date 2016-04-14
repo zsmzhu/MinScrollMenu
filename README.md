@@ -16,7 +16,7 @@ pod ‘MinScrollMenu’
 	_menu.delegate = self;
 	[self.view addSubview:_menu];
 ### Note
-1. Require to realization 3 protocol method:
+1. Require to realization 3 protocol methods:
 ```
 	- (NSInteger)numberOfMenuCount:(MinScrollMenu \*)menu;
 	- (CGFloat)scrollMenu:(MinScrollMenu\*)menu widthForItemAtIndex:(NSInteger)index;
